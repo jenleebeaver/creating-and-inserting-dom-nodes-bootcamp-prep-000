@@ -25,5 +25,8 @@ ul.removeChild
 ƒ removeChild() { [native code] }
 ul.removeChild(ul.querySelector('li'));
 <li>​1​</li>​
+ul.removeChild(ul.querySelector('li:nth-child(n)'));
+<li>​3​</li>​
+element.remove()
 //this file is optional
 //you can use this to paste in js code and have it run when index.html is loaded
